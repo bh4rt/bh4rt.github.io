@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1133,8 +1134,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/bg.jpg");
-			background-position: center;
-			background-size: cover;
+			background-position: center; 
+			/* background-size: cover;   */
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
